@@ -1,0 +1,54 @@
+Built-In Types for Data Representation
+1. None
+    The None type denotes a null object (an object with no value). Python provides exactly
+    one null object, which is written as None in a program.This object is returned by func-
+    tions that don’t explicitly return a value. None is frequently used as the default value of
+    optional arguments, so that the function can detect whether the caller has actually
+    passed a value for that argument. None has no attributes and evaluates to False in
+    Boolean expressions.
+
+2. Numbers
+    Except for Booleans, all numeric objects are signed. All numeric types are immutable.
+    1. Boolean ( True or False )
+        Booleans are represented by two values: True and False.
+        The names True and False are respectively mapped to the numerical values of 1 and 0.
+
+    2. Integers:
+        Integers represent whole numbers in the range of –2147483648 to 2147483647.
+        (the range may be larger on some machines).
+
+    3. Long:
+        Long integers represent whole numbers of unlimited range (limited only by available memory).
+
+    4. Floating point
+        Floating-point numbers are represented using the native double-precision (64-bit) representation of
+        floating-point numbers on the machine. Normally this is IEEE 754, which provides approximately 17 digits of
+        precision and an exponent in the range of  –308 to 308. This is the same as the double type in C.
+        Python doesn’t support 32-bit single-precision floating-point numbers.
+        If precise control over the space and precision of numbers is an issue in your program
+
+    5. Complex number
+        Complex numbers are represented as a pair of floating-point numbers.
+        The real and imaginary parts of a complex number z are available in z.real and z.imag.
+        The method z.conjugate() calculates the complex conjugate of z (the conjugate of a+bj is a-bj ).
+
+Character string
+Unicode character string (Python 2 only)
+List
+Tuple
+A range of integers created by xrange() (In Python 3,
+it is called range. )
+Dictionary
+Mutable set
+Immutable set
+Sequences
+Mapping
+Sets
+str
+unicode
+list
+tuple
+xrange
+dict
+set
+frozenset
