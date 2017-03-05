@@ -69,3 +69,62 @@ print s1[2:8]
 
 print s1[0:4:2]
 # Output: [1, 4]
+
+print s1[0:4:1]
+# Output: [1, 2, 4, 10]
+
+print s1[::]
+# Output: [1, 2, 4, 10, 12]
+
+print s1[0:4:-2]
+# Output: []
+
+print s1[0::-2]
+# Output: [1]
+
+print s1[0:]
+# [1, 2, 4, 10, 12]
+
+print s2[:3]
+# foo
+
+print s2[:3:2]
+# fo
+
+print s2[:3:-1]
+# ra
+
+print s2[:3:-2]
+# r
+
+print len(s2), len(s1)
+# 6 5
+
+print max(s1), max(s2)
+# 12 r
+
+print min(s1), min(s2)
+# 1 a
+
+print all(s1), all(s2)
+# True True
+# Check whether all items in list are True
+
+s1.append(0)
+
+print all(s1)
+# False
+
+print any(s1), any(s2)
+# True True
+# Check whether any item in list is True
+
+print sum(s1)
+# 29
+
+#print sum(s2)
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+del s1[2]
+
+print s1[len(s1)-1]
