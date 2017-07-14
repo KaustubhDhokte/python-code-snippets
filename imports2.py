@@ -1,0 +1,2 @@
+import imports1
+print __name__
