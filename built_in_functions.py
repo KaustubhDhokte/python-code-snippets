@@ -129,7 +129,7 @@ class MyClass():
 m = MyClass()
 print m.getA()
 delattr(m, 'a')
-print m.getA()
+#print m.getA()
 
 '''
 Output:
@@ -144,6 +144,21 @@ AttributeError: MyClass instance has no attribute 'a'
 
 ###########################################################################################################
 
+##################################################### enumerate() #########################################
+
+# Return an enumerate object.
+print "enumerate()\n"
+
+l1 = [2, 4, 6, 7, 'a', [4,3], {0:3, 9:2}]
+targets = [l1, 1, 'b']
+
+for t in targets:
+    print enumerate(t) #<enumerate object at 0x7f68ad8f78c0>
+    print list(enumerate(t))
+    # [(0, 2), (1, 4), (2, 6), (3, 7), (4, 'a'), (5, [4, 3]), (6, {0: 3, 9: 2})]
+
+###########################################################################################################
+
 '''
 TO DO: Study following built-in functions
 
@@ -155,13 +170,9 @@ callable
 
 classmethod
 
-cmp
-
 compile
 
 complex
-
-delattr
 
 dir
 
@@ -175,9 +186,9 @@ exec
 
 filter 
 
-float 
+float
 
-format 
+format
 
 frozenset 
 
@@ -187,7 +198,7 @@ globals
 
 hasattr
 
-id 
+id
 
 input 
 
