@@ -171,6 +171,21 @@ print eval('x')
 
 print globals()
 
+'''
+{'MyClass': <class __main__.MyClass at 0x7f5949aea668>, 'targets': [[2, 4, 6, 7, 'a', [4, 3], {0: 3, 9: 2}], 1, 'b'],
+ '__package__': None, 'm1': <__main__.MyClass object at 0x7f5949b03450>, 'm3': <__main__.MyClass object at 0x7f5949b0
+3550>, 'm2': <__main__.MyClass object at 0x7f5949b03550>, '__doc__': None, '__warningregistry__': {('BaseException.me
+ssage has been deprecated as of Python 2.6', <type 'exceptions.DeprecationWarning'>, 40): True, ('BaseException.messa
+ge has been deprecated as of Python 2.6', <type 'exceptions.DeprecationWarning'>, 24): True}, '__builtins__': <module
+ '__builtin__' (built-in)>, '__file__': 'built_in_functions.py', 'l1': [2, 4, 6, 7, 'a', [4, 3], {0: 3, 9: 2}], '__na
+me__': '__main__', 'dct': {'i': 1, 1: 2, <__main__.MyClass object at 0x7f5949b03450>: <__main__.MyClass object at 0x7
+f5949b03550>, <__main__.MyClass object at 0x7f5949b03550>: <__main__.MyClass object at 0x7f5949b03550>}, 'a': [0, 1,
+-1, 'atr', 'v', 5.8, -4.3, [], [True], [False], [1], [0], [1, 0], {}, {0: 2, 3: 2}], 'e': TypeError("'int' object is
+not iterable",), 'i': (2, 3), 'k': <__main__.MyClass object at 0x7f5949b03550>, 'm': <__main__.MyClass instance at 0x
+7f5949af8878>, 'l': [<type 'str'>, 1, 'i', 2.7, [5, 4], {3: 4}, (2, 3)], 't': 'b', 'v': <__main__.MyClass object at 0
+x7f5949b03550>, 'x': 3}
+'''
+
 ##########################################################################################################
 
 ################################################### getattr() ############################################
