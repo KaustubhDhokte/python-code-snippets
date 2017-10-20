@@ -1,3 +1,7 @@
+#https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/
+#in short to remember: immutable objects are passed by value and mutable like lists are passed by reference.
+#https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
+
 import sys
 
 def fooImmutable(a):
