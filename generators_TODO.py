@@ -1,5 +1,6 @@
 # Solve problems given here: http://anandology.com/python-practice-book/iterators.html
-
+# https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do
+# Modify generators usage by adding an example from above link
 def gen():
     pass
 
