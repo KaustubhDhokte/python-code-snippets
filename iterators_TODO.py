@@ -1,3 +1,5 @@
+# Add more theory, links, explanation and output
+
 i = iter([1, 2, 3])
 print i
 print i.next()
