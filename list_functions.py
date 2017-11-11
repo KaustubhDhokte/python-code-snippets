@@ -82,3 +82,4 @@ print c
 print type(c)
 # [1, 2, 3, 5, 6, 8, 9, 10, 99]
 # <type 'list'>
+

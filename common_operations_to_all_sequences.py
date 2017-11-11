@@ -128,3 +128,11 @@ print sum(s1)
 del s1[2]
 
 print s1[len(s1)-1]
+
+# print s1[10]: index out of range
+print s1[10:] # Empty list
+
+# print s1[-10] # IndexError
+
+a = [1, 2, 3, 4, 5]
+print a[::2] # 1, 3, 5
